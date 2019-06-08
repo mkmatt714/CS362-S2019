@@ -1,0 +1,900 @@
+Test #: 0
+Url: frp:\*((#@/info
+Test Result: false
+Test #: 1
+Url: frp//info
+Test Result: false
+Test #: 2
+Url: https///www.google.com.com
+Test Result: false
+Test #: 3
+Url: frp://www.google.com
+Test Result: false
+Test #: 4
+Url: ://www.google.com.html
+Test Result: false
+Test #: 5
+Url: http///www.google.com.com
+Test Result: false
+Test #: 6
+Url: frp#ww.goo#gle.com
+Test Result: false
+Test #: 7
+Url: https.com
+Test Result: false
+Test #: 8
+Url: frp/.com/info
+Test Result: false
+Test #: 9
+Url: frp/ww.goo#gle.com/info
+Test Result: false
+Test #: 10
+Url: httpswww.google.com
+Test Result: false
+Test #: 11
+Url: ftpwww.google.com
+Test Result: false
+Test #: 12
+Url: http/.com.com
+Test Result: false
+Test #: 13
+Url: httpswww.google.com.com
+Test Result: false
+Test #: 14
+Url: ftp:*((#@.html
+Test Result: false
+Test #: 15
+Url: ftp///
+Test Result: false
+Test #: 16
+Url: https:*((#@.html
+Test Result: false
+Test #: 17
+Url: ftpwww.google.com/info
+Test Result: false
+Test #: 18
+Url: frp/*((#@.com
+Test Result: false
+Test #: 19
+Url: http:\ww.goo#gle.com/info
+Test Result: false
+Test #: 20
+Url: http:\.com.html
+Test Result: false
+Test #: 21
+Url: frp/ww.goo#gle.com
+Test Result: false
+Test #: 22
+Url: frp:/info
+Test Result: false
+Test #: 23
+Url: /ww.goo#gle.com.com
+Test Result: false
+Test #: 24
+Url: httpww.goo#gle.com.html
+Test Result: false
+Test #: 25
+Url: frp:.com
+Test Result: false
+Test #: 26
+Url: frp/
+Test Result: false
+Test #: 27
+Url: ftp///.com
+Test Result: false
+Test #: 28
+Url: https:\www.google.com.com
+Test Result: false
+Test #: 29
+Url: http///ww.goo#gle.com.html
+Test Result: false
+Test #: 30
+Url: *((#@
+Test Result: false
+Test #: 31
+Url: frp:///info
+Test Result: false
+Test #: 32
+Url: www.google.com.com
+Test Result: false
+Test #: 33
+Url: https///ww.goo#gle.com.html
+Test Result: false
+Test #: 34
+Url: ftp://*((#@
+Test Result: false
+Test #: 35
+Url: ftp:\
+Test Result: false
+Test #: 36
+Url: http/.com
+Test Result: false
+Test #: 37
+Url: ftp:.com
+Test Result: false
+Test #: 38
+Url: http#*((#@
+Test Result: false
+Test #: 39
+Url: ftp:\*((#@
+Test Result: false
+Test #: 40
+Url: http/ww.goo#gle.com
+Test Result: false
+Test #: 41
+Url: https///ww.goo#gle.com/info
+Test Result: false
+Test #: 42
+Url: ftp/ww.goo#gle.com.html
+Test Result: false
+Test #: 43
+Url: frp///ww.goo#gle.com.html
+Test Result: false
+Test #: 44
+Url: frp:\www.google.com.html
+Test Result: false
+Test #: 45
+Url: http///www.google.com.html
+Test Result: false
+Test #: 46
+Url: http#.com.com
+Test Result: false
+Test #: 47
+Url: frp/*((#@.com
+Test Result: false
+Test #: 48
+Url: ftp/.com/info
+Test Result: false
+Test #: 49
+Url: ftp:/info
+Test Result: false
+Test #: 50
+Url: :\*((#@/info
+Test Result: false
+Test #: 51
+Url: ///.com.html
+Test Result: false
+Test #: 52
+Url: httpsww.goo#gle.com.com
+Test Result: false
+Test #: 53
+Url: http:\.com
+Test Result: false
+Test #: 54
+Url: http:*((#@.html
+Test Result: false
+Test #: 55
+Url: http/ww.goo#gle.com.com
+Test Result: false
+Test #: 56
+Url: https:.com
+Test Result: false
+Test #: 57
+Url: ftp:.com
+Test Result: false
+Test #: 58
+Url: ftp://.html
+Test Result: false
+Test #: 59
+Url: https:\.com
+Test Result: false
+Test #: 60
+Url: ftp:\*((#@/info
+Test Result: false
+Test #: 61
+Url: 
+Test Result: false
+Test #: 62
+Url: ftp#ww.goo#gle.com
+Test Result: false
+Test #: 63
+Url: http/ww.goo#gle.com.com
+Test Result: false
+Test #: 64
+Url: https://.com
+Test Result: false
+Test #: 65
+Url: /www.google.com.com
+Test Result: false
+Test #: 66
+Url: https///*((#@.com
+Test Result: false
+Test #: 67
+Url: https#ww.goo#gle.com/info
+Test Result: false
+Test #: 68
+Url: http://ww.goo#gle.com/info
+Test Result: true
+Test #: 69
+Url: #
+Test Result: false
+Test #: 70
+Url: ftp/.com.html
+Test Result: false
+Test #: 71
+Url: frp///www.google.com
+Test Result: false
+Test #: 72
+Url: ftp://ww.goo#gle.com/info
+Test Result: true
+Test #: 73
+Url: http#www.google.com
+Test Result: false
+Test #: 74
+Url: http:www.google.com
+Test Result: false
+Test #: 75
+Url: frp#.html
+Test Result: false
+Test #: 76
+Url: ftp:\www.google.com.html
+Test Result: false
+Test #: 77
+Url: https://ww.goo#gle.com
+Test Result: true
+Test #: 78
+Url: https:\/info
+Test Result: false
+Test #: 79
+Url: frp///*((#@
+Test Result: false
+Test #: 80
+Url: https#.com
+Test Result: false
+Test #: 81
+Url: http://
+Test Result: false
+Test #: 82
+Url: frp:ww.goo#gle.com
+Test Result: false
+Test #: 83
+Url: http#*((#@.com
+Test Result: false
+Test #: 84
+Url: *((#@.html
+Test Result: false
+Test #: 85
+Url: https:///info
+Test Result: false
+Test #: 86
+Url: frp*((#@
+Test Result: false
+Test #: 87
+Url: ftp/ww.goo#gle.com.com
+Test Result: false
+Test #: 88
+Url: http:\www.google.com
+Test Result: false
+Test #: 89
+Url: ftp://*((#@
+Test Result: false
+Test #: 90
+Url: http:/info
+Test Result: false
+Test #: 91
+Url: ///.com
+Test Result: false
+Test #: 92
+Url: ftp///ww.goo#gle.com
+Test Result: false
+Test #: 93
+Url: ftp#www.google.com.html
+Test Result: false
+Test #: 94
+Url: frp*((#@
+Test Result: false
+Test #: 95
+Url: http://
+Test Result: false
+Test #: 96
+Url: /ww.goo#gle.com.html
+Test Result: false
+Test #: 97
+Url: http/www.google.com
+Test Result: false
+Test #: 98
+Url: frp/www.google.com.html
+Test Result: false
+Test #: 99
+Url: frp://ww.goo#gle.com
+Test Result: false
+Test #: 100
+Url: #
+Test Result: false
+Test #: 101
+Url: frp:\
+Test Result: false
+Test #: 102
+Url: http/www.google.com/info
+Test Result: false
+Test #: 103
+Url: ftpwww.google.com/info
+Test Result: false
+Test #: 104
+Url: https/*((#@.com
+Test Result: false
+Test #: 105
+Url: ftp#www.google.com
+Test Result: false
+Test #: 106
+Url: ftp:www.google.com
+Test Result: false
+Test #: 107
+Url: https#*((#@.html
+Test Result: false
+Test #: 108
+Url: http///.com
+Test Result: false
+Test #: 109
+Url: ://*((#@.html
+Test Result: false
+Test #: 110
+Url: https://www.google.com.html
+Test Result: false
+Test #: 111
+Url: frp://ww.goo#gle.com.com
+Test Result: false
+Test #: 112
+Url: ://.com
+Test Result: false
+Test #: 113
+Url: ftp///.com.html
+Test Result: false
+Test #: 114
+Url: ftp://.com.com
+Test Result: false
+Test #: 115
+Url: frp/.html
+Test Result: false
+Test #: 116
+Url: frpwww.google.com/info
+Test Result: false
+Test #: 117
+Url: ://
+Test Result: false
+Test #: 118
+Url: frpwww.google.com/info
+Test Result: false
+Test #: 119
+Url: frp/info
+Test Result: false
+Test #: 120
+Url: frp:www.google.com/info
+Test Result: false
+Test #: 121
+Url: http://.com
+Test Result: false
+Test #: 122
+Url: ftp///ww.goo#gle.com/info
+Test Result: false
+Test #: 123
+Url: ftp#ww.goo#gle.com/info
+Test Result: false
+Test #: 124
+Url: frp/ww.goo#gle.com.html
+Test Result: false
+Test #: 125
+Url: ftp:\/info
+Test Result: false
+Test #: 126
+Url: ://*((#@.html
+Test Result: false
+Test #: 127
+Url: http/ww.goo#gle.com
+Test Result: false
+Test #: 128
+Url: frp:\.com
+Test Result: false
+Test #: 129
+Url: https///ww.goo#gle.com.com
+Test Result: false
+Test #: 130
+Url: frp#*((#@/info
+Test Result: false
+Test #: 131
+Url: ftp/www.google.com.com
+Test Result: false
+Test #: 132
+Url: frp#www.google.com.com
+Test Result: false
+Test #: 133
+Url: https://ww.goo#gle.com.html
+Test Result: true
+Test #: 134
+Url: frp///ww.goo#gle.com
+Test Result: false
+Test #: 135
+Url: https:*((#@.com
+Test Result: false
+Test #: 136
+Url: frp#*((#@/info
+Test Result: false
+Test #: 137
+Url: ftp///*((#@
+Test Result: false
+Test #: 138
+Url: http:\www.google.com/info
+Test Result: false
+Test #: 139
+Url: ftp://.com/info
+Test Result: false
+Test #: 140
+Url: frp/*((#@.html
+Test Result: false
+Test #: 141
+Url: ftp.com.html
+Test Result: false
+Test #: 142
+Url: http
+Test Result: false
+Test #: 143
+Url: frp#
+Test Result: false
+Test #: 144
+Url: https://.com.html
+Test Result: false
+Test #: 145
+Url: https:www.google.com/info
+Test Result: false
+Test #: 146
+Url: https///.com.html
+Test Result: false
+Test #: 147
+Url: ftp://www.google.com.html
+Test Result: false
+Test #: 148
+Url: ftp:\*((#@.html
+Test Result: false
+Test #: 149
+Url: /ww.goo#gle.com.html
+Test Result: false
+Test #: 150
+Url: http:\www.google.com
+Test Result: false
+Test #: 151
+Url: https://ww.goo#gle.com.html
+Test Result: true
+Test #: 152
+Url: http:\ww.goo#gle.com/info
+Test Result: false
+Test #: 153
+Url: ://ww.goo#gle.com.html
+Test Result: false
+Test #: 154
+Url: https://ww.goo#gle.com.com
+Test Result: true
+Test #: 155
+Url: http:*((#@.com
+Test Result: false
+Test #: 156
+Url: http#.com
+Test Result: false
+Test #: 157
+Url: https#.html
+Test Result: false
+Test #: 158
+Url: /www.google.com
+Test Result: false
+Test #: 159
+Url: :*((#@.com
+Test Result: false
+Test #: 160
+Url: frp#.com/info
+Test Result: false
+Test #: 161
+Url: /ww.goo#gle.com.html
+Test Result: false
+Test #: 162
+Url: https:www.google.com/info
+Test Result: false
+Test #: 163
+Url: http///ww.goo#gle.com/info
+Test Result: false
+Test #: 164
+Url: ftp#*((#@.html
+Test Result: false
+Test #: 165
+Url: :ww.goo#gle.com.com
+Test Result: false
+Test #: 166
+Url: frp://.com.com
+Test Result: false
+Test #: 167
+Url: httpwww.google.com.html
+Test Result: false
+Test #: 168
+Url: ftp:*((#@/info
+Test Result: false
+Test #: 169
+Url: frpwww.google.com.html
+Test Result: false
+Test #: 170
+Url: http:\ww.goo#gle.com.com
+Test Result: false
+Test #: 171
+Url: ftp///ww.goo#gle.com.html
+Test Result: false
+Test #: 172
+Url: ://www.google.com/info
+Test Result: false
+Test #: 173
+Url: :*((#@/info
+Test Result: false
+Test #: 174
+Url: :/info
+Test Result: false
+Test #: 175
+Url: http/www.google.com.com
+Test Result: false
+Test #: 176
+Url: https:www.google.com.com
+Test Result: false
+Test #: 177
+Url: ftp:/info
+Test Result: false
+Test #: 178
+Url: ftp://.html
+Test Result: false
+Test #: 179
+Url: ://*((#@.html
+Test Result: false
+Test #: 180
+Url: ftp///*((#@
+Test Result: false
+Test #: 181
+Url: frp/info
+Test Result: false
+Test #: 182
+Url: frp.com
+Test Result: false
+Test #: 183
+Url: #www.google.com.com
+Test Result: false
+Test #: 184
+Url: http/www.google.com.com
+Test Result: false
+Test #: 185
+Url: https:\
+Test Result: false
+Test #: 186
+Url: https/.com/info
+Test Result: false
+Test #: 187
+Url: frp///www.google.com
+Test Result: false
+Test #: 188
+Url: ftp/www.google.com
+Test Result: false
+Test #: 189
+Url: https.com/info
+Test Result: false
+Test #: 190
+Url: ftp/
+Test Result: false
+Test #: 191
+Url: ftp.com/info
+Test Result: false
+Test #: 192
+Url: http://*((#@.html
+Test Result: false
+Test #: 193
+Url: :\ww.goo#gle.com/info
+Test Result: false
+Test #: 194
+Url: frp///*((#@/info
+Test Result: false
+Test #: 195
+Url: :\ww.goo#gle.com
+Test Result: false
+Test #: 196
+Url: https://www.google.com
+Test Result: true
+Test #: 197
+Url: frp:\*((#@
+Test Result: false
+Test #: 198
+Url: #.com.com
+Test Result: false
+Test #: 199
+Url: ftp#*((#@.com
+Test Result: false
+Test #: 200
+Url: https:\ww.goo#gle.com.html
+Test Result: false
+Test #: 201
+Url: httpww.goo#gle.com/info
+Test Result: false
+Test #: 202
+Url: https///ww.goo#gle.com.html
+Test Result: false
+Test #: 203
+Url: ftp:\ww.goo#gle.com.com
+Test Result: false
+Test #: 204
+Url: frp#ww.goo#gle.com.html
+Test Result: false
+Test #: 205
+Url: http#www.google.com.com
+Test Result: false
+Test #: 206
+Url: http/.com
+Test Result: false
+Test #: 207
+Url: www.google.com
+Test Result: false
+Test #: 208
+Url: https
+Test Result: false
+Test #: 209
+Url: http/*((#@.html
+Test Result: false
+Test #: 210
+Url: http/ww.goo#gle.com/info
+Test Result: false
+Test #: 211
+Url: 
+Test Result: false
+Test #: 212
+Url: frp/.com.html
+Test Result: false
+Test #: 213
+Url: ftp#.com.html
+Test Result: false
+Test #: 214
+Url: #/info
+Test Result: false
+Test #: 215
+Url: https*((#@.html
+Test Result: false
+Test #: 216
+Url: frp///www.google.com.com
+Test Result: false
+Test #: 217
+Url: http:\.com
+Test Result: false
+Test #: 218
+Url: frp/
+Test Result: false
+Test #: 219
+Url: https:
+Test Result: false
+Test #: 220
+Url: http#.com/info
+Test Result: false
+Test #: 221
+Url: frp://*((#@.html
+Test Result: false
+Test #: 222
+Url: ftp///.com
+Test Result: false
+Test #: 223
+Url: frp/.com.html
+Test Result: false
+Test #: 224
+Url: http:.com
+Test Result: false
+Test #: 225
+Url: #www.google.com
+Test Result: false
+Test #: 226
+Url: ftp#.com/info
+Test Result: false
+Test #: 227
+Url: https///www.google.com.html
+Test Result: false
+Test #: 228
+Url: https:\www.google.com/info
+Test Result: false
+Test #: 229
+Url: http://*((#@/info
+Test Result: false
+Test #: 230
+Url: frp#ww.goo#gle.com/info
+Test Result: false
+Test #: 231
+Url: httpswww.google.com
+Test Result: false
+Test #: 232
+Url: https://*((#@.html
+Test Result: false
+Test #: 233
+Url: frpwww.google.com/info
+Test Result: false
+Test #: 234
+Url: frpwww.google.com/info
+Test Result: false
+Test #: 235
+Url: ftp#.com.com
+Test Result: false
+Test #: 236
+Url: ftp:ww.goo#gle.com/info
+Test Result: false
+Test #: 237
+Url: frp*((#@
+Test Result: false
+Test #: 238
+Url: #*((#@
+Test Result: false
+Test #: 239
+Url: ftpww.goo#gle.com/info
+Test Result: false
+Test #: 240
+Url: ww.goo#gle.com.com
+Test Result: false
+Test #: 241
+Url: frp:www.google.com
+Test Result: false
+Test #: 242
+Url: http:///info
+Test Result: false
+Test #: 243
+Url: :.com.html
+Test Result: false
+Test #: 244
+Url: frp/www.google.com.html
+Test Result: false
+Test #: 245
+Url: frp#ww.goo#gle.com/info
+Test Result: false
+Test #: 246
+Url: frp*((#@.html
+Test Result: false
+Test #: 247
+Url: https:*((#@
+Test Result: false
+Test #: 248
+Url: http://*((#@.html
+Test Result: false
+Test #: 249
+Url: https:.com
+Test Result: false
+Test #: 250
+Url: frp:\ww.goo#gle.com/info
+Test Result: false
+Test #: 251
+Url: frp:/info
+Test Result: false
+Test #: 252
+Url: frp#/info
+Test Result: false
+Test #: 253
+Url: ftp:\/info
+Test Result: false
+Test #: 254
+Url: ://.com.com
+Test Result: false
+Test #: 255
+Url: :*((#@.html
+Test Result: false
+Test #: 256
+Url: https:\ww.goo#gle.com.com
+Test Result: false
+Test #: 257
+Url: ///www.google.com.com
+Test Result: false
+Test #: 258
+Url: https///ww.goo#gle.com/info
+Test Result: false
+Test #: 259
+Url: ftp///ww.goo#gle.com/info
+Test Result: false
+Test #: 260
+Url: ftp///*((#@/info
+Test Result: false
+Test #: 261
+Url: ftp:ww.goo#gle.com.com
+Test Result: false
+Test #: 262
+Url: ftp*((#@.com
+Test Result: false
+Test #: 263
+Url: frp/ww.goo#gle.com.html
+Test Result: false
+Test #: 264
+Url: http://
+Test Result: false
+Test #: 265
+Url: https:\*((#@.com
+Test Result: false
+Test #: 266
+Url: #www.google.com.html
+Test Result: false
+Test #: 267
+Url: http#www.google.com/info
+Test Result: false
+Test #: 268
+Url: ftp:\*((#@.html
+Test Result: false
+Test #: 269
+Url: :\ww.goo#gle.com
+Test Result: false
+Test #: 270
+Url: https:\ww.goo#gle.com.html
+Test Result: false
+Test #: 271
+Url: /www.google.com
+Test Result: false
+Test #: 272
+Url: frp://*((#@.html
+Test Result: false
+Test #: 273
+Url: https://*((#@
+Test Result: false
+Test #: 274
+Url: ftp:\www.google.com
+Test Result: false
+Test #: 275
+Url: /ww.goo#gle.com.html
+Test Result: false
+Test #: 276
+Url: frp:\www.google.com/info
+Test Result: false
+Test #: 277
+Url: frp#/info
+Test Result: false
+Test #: 278
+Url: ftp/.html
+Test Result: false
+Test #: 279
+Url: http/*((#@/info
+Test Result: false
+Test #: 280
+Url: :\
+Test Result: false
+Test #: 281
+Url: frpww.goo#gle.com/info
+Test Result: false
+Test #: 282
+Url: frp///*((#@.html
+Test Result: false
+Test #: 283
+Url: http:*((#@.com
+Test Result: false
+Test #: 284
+Url: :.html
+Test Result: false
+Test #: 285
+Url: //info
+Test Result: false
+Test #: 286
+Url: http://www.google.com
+Test Result: true
+Test #: 287
+Url: #*((#@.com
+Test Result: false
+Test #: 288
+Url: ftp#www.google.com/info
+Test Result: false
+Test #: 289
+Url: :\*((#@.html
+Test Result: false
+Test #: 290
+Url: ftp#www.google.com.com
+Test Result: false
+Test #: 291
+Url: https.com/info
+Test Result: false
+Test #: 292
+Url: frp://*((#@
+Test Result: false
+Test #: 293
+Url: https///*((#@/info
+Test Result: false
+Test #: 294
+Url: http:.com.html
+Test Result: false
+Test #: 295
+Url: frp://www.google.com.com
+Test Result: false
+Test #: 296
+Url: frp:\.com.html
+Test Result: false
+Test #: 297
+Url: http:.com/info
+Test Result: false
+Test #: 298
+Url: /*((#@
+Test Result: false
+Test #: 299
+Url: ftp/ww.goo#gle.com.com
+Test Result: false
