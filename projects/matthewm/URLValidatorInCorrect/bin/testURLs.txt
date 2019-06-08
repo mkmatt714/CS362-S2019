@@ -1,0 +1,4 @@
+http://www.google.com
+https://www.google.com
+ftp://g.com
+htyp://trace.cim
